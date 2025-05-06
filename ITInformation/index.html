@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information Technology: Pros and Cons</title>
+    <style>
+        .advantages{
+            border-bottom: 2px solid #09ff00;
+        }
+        .disadvantages{
+            border-bottom: 2px solid #e22727;
+        }
+        .firstImage{
+            width: 1484px;
+            
+        }
+        /* Общие стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+
+        /* Шапка сайта */
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Секции */
+        section {
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            color: #35424a;
+             border-bottom: 2px solid #e8491d;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Стили для изображений в секциях */
+        .section-image {
+            display: block; /* Чтобы margin: auto работало для центрирования */
+            max-width: 100%; /* Изображение не будет выходить за пределы родительского блока */
+            height: auto; /* Сохранение пропорций */
+            margin: 15px auto 20px auto; /* Отступы сверху/снизу и авто по бокам для центрирования */
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Стили для списков достоинств и недостатков */
+        .features-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features-list li {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .advantages-list li {
+            background-color: #e6ffe6; /* Светло-зеленый для достоинств */
+            border-left: 5px solid #28a745; /* Зеленая полоса слева */
+        }
+
+        .disadvantages-list li {
+            background-color: #ffe6e6; /* Светло-красный для недостатков */
+            border-left: 5px solid #dc3545; /* Красная полоса слева */
+        }
+
+        .features-list li strong {
+            color: #333;
+        }
+
+        /* Введение */
+        #intro p {
+            font-size: 1.1em;
+        }
+
+        /* Подвал */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #35424a;
+            color: #ffffff;
+            margin-top: 30px;
+        }
+
+        /* Адаптивность */
+        @media(max-width: 768px){
+            .container {
+                width: 90%;
+                padding: 0 15px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            section h2 {
+                font-size: 1.5em;
+            }
+
+            .features-list li {
+                font-size: 0.9em;
+            }
+
+            .section-image {
+                margin: 10px auto 15px auto;
+            }
+        }
+
+        @media(max-width: 480px){
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            section h2 {
+                font-size: 1.3em;
+            }
+
+            #intro p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>The World of Information Technology</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="intro">
+            <h2>Introduction to IT</h2>
+            <!-- Replace URL with your image -->
+            <img src="photo/shutterstock_1043722582.jpg" alt="World of Information Technologies" class="firstImage">
+            <p>Information Technology (IT) encompasses all aspects of managing and processing information using computers and software. It has become an integral part of modern life, business, education, science, and entertainment. IT includes software development, database management, network technologies, cybersecurity, artificial intelligence, and much more. The impact of IT is enormous, and it continues to grow, bringing both significant advantages and certain challenges.</p>
+        </section>
+
+        <section id="advantages">
+            <img src="photo/1523629514165338584.jpg" alt="Advantages of IT" class="section-image">
+            <h2 class="advantages">Advantages and Disadvantages of Information Technologies</h2>
+            <!-- Replace URL with your image -->
+            
+            <ul class="features-list advantages-list">
+                <li>
+                    <strong>Increased efficiency and productivity:</strong>
+                    Automation of routine tasks, acceleration of data processing and decision-making processes.
+                </li>
+                <li>
+                    <strong>Global access to information and knowledge:</strong>
+                    The Internet provides unlimited access to educational resources, scientific research, and news from around the world.
+                </li>
+                <li>
+                    <strong>Improved communications:</strong>
+                    Email, messengers, social networks, and video conferencing provide instant communication regardless of geographical location.
+                </li>
+                <li>
+                    <strong>Innovation and development:</strong>
+                    IT is a driving force for creating new products, services, and business models, contributing to economic growth.
+                </li>
+                <li>
+                    <strong>Improved quality of life:</strong>
+                    Medical technologies, smart homes, and online services make life more convenient and safer.
+                </li>
+                <li>
+                    <strong>Optimization of business processes:</strong>
+                    Enterprise Resource Planning (ERP) systems, Customer Relationship Management (CRM) systems, and other tools help companies operate more efficiently.
+                </li>
+                <li>
+                    <strong>Opportunities for remote work and learning:</strong>
+                    IT allows people to work and learn from anywhere in the world with internet access.
+                </li>
+            </ul>
+        </section>
+
+        <section id="disadvantages">
+            <h2 class="disadvantages"></h2> <!-- Этот заголовок был добавлен, так как в вашем коде он был пуст -->
+            <!-- Replace URL with your image -->
+            
+            <ul class="features-list disadvantages-list">
+                <li>
+                    <strong>Cybersecurity threats:</strong>
+                    Data theft, viruses, phishing, DDoS attacks, and other cyber threats pose a serious risk to individuals and organizations.
+                </li>
+                <li>
+                    <strong>Confidentiality and data protection issues:</strong>
+                    The collection and use of personal data by companies and governments raise concerns about privacy.
+                </li>
+                <li>
+                    <strong>Digital divide:</strong>
+                    Unequal access to technology and the internet among different social groups and regions, which exacerbates social stratification.
+                </li>
+                <li>
+                    <strong>Job losses due to automation:</strong>
+                    Some professions become redundant due to the implementation of IT and robotization.
+                </li>
+                <li>
+                    <strong>Information overload and addiction:</strong>
+                    The abundance of information can lead to stress, and excessive use of gadgets and social networks can lead to addiction.
+                </li>
+                <li>
+                    <strong>Health problems:</strong>
+                    Prolonged sitting at a computer can cause vision problems, musculoskeletal issues, and lead to a sedentary lifestyle.
+                </li>
+                <li>
+                    <strong>High cost of implementation and maintenance:</strong>
+                    For small businesses and developing countries, the costs of acquiring, updating, and supporting IT infrastructure can be significant.
+                </li>
+                <li>
+                    <strong>Spread of disinformation:</strong>
+                    The ease of creating and disseminating false or misleading information via the internet.
+                </li>
+            </ul>
+        </section>
+
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>Information technologies have fundamentally changed our world, offering unprecedented opportunities for growth, innovation, and communication. However, along with numerous advantages, there are also serious challenges that require careful consideration and proactive measures. It is important to strive for a balanced use of IT, maximizing its positive impact and minimizing potential risks for society and each individual.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 World of Information Technologies. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
